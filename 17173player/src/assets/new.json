@@ -1,0 +1,360 @@
+{
+    "root": [
+        {
+            "chan": {
+                "name": "allyestest|video_adv_test|video_test_kuozhan1",
+                "id": "66",
+                "startTime": "",
+                "endTime": "",
+                "t": "smcustom",
+                "r": "0",
+                "p": 1,
+                "tfid": 4407,
+                "dz": 0,
+                "w": 1,
+                "h": 1,
+                "at": "17173-video-ads",
+                "custom": {
+                    "e": "0",
+                    "t": "5",
+                    "j": "http://www.17173.com/",
+                    "r": "1",
+                    "u": ""
+                },
+                "ps": {
+                    "pt": [
+                        {
+                            "tp": "t",
+                            "n": "playfull",
+                            "val": "0",
+                            "cd": "http://17173im.allyes.com/main/adftrack?db=17173im&point=658&cache=66774&pre="
+                        }
+                    ]
+                },
+                "e": "",
+                "cc": "http://17173im.allyes.com/c?d=17173im&i=z99,10016756,1289,4409&k=cid|1&rf=&a=dsAADiw6C0BTeuy38QQhaH1xK&url=",
+                "sc": "http://17173im.allyes.com/main/s?d=17173im&i=s99,10016756,1289,4409&k=cid|1&count=f&rf=&a=dsAADiw6C0BTeuy38QQhaH1xK",
+                "trd": {
+                    "u": []
+                },
+                "ip": "180.149.148.66"
+            }
+        },
+        {
+            "chan": {
+                "name": "allyestest|video_adv_test|video_test_kuozhan2",
+                "id": "99",
+                "startTime": "",
+                "endTime": "",
+                "t": "smcustom",
+                "r": "0",
+                "p": 1,
+                "tfid": 4411,
+                "dz": 0,
+                "w": 1,
+                "h": 1,
+                "at": "17173-video-ads",
+                "custom": {
+                    "e": "0",
+                    "t": "5",
+                    "j": "http://www.17173.com/",
+                    "r": "1",
+                    "u": ""
+                },
+                "ps": {
+                    "pt": [
+                        {
+                            "tp": "t",
+                            "n": "playfull",
+                            "val": "0",
+                            "cd": "http://17173im.allyes.com/main/adftrack?db=17173im&point=658&cache=66774&pre="
+                        }
+                    ]
+                },
+                "e": "",
+                "cc": "http://17173im.allyes.com/c?d=17173im&i=z99,10016756,1289,4409&k=cid|1&rf=&a=dsAADiw6C0BTeuy38QQhaH1xK&url=",
+                "sc": "http://17173im.allyes.com/main/s?d=17173im&i=s99,10016756,1289,4409&k=cid|1&count=f&rf=&a=dsAADiw6C0BTeuy38QQhaH1xK",
+                "trd": {
+                    "u": []
+                },
+                "ip": "180.149.148.66"
+            }
+        },
+        {
+            "chan": {
+                "name": "allyestest|video_adv_test|video_test_qiantie1",
+                "id": "67",
+                "startTime": "",
+                "endTime": "",
+                "t": "smcustom",
+                "r": "0",
+                "p": 1,
+                "tfid": 4409,
+                "dz": 0,
+                "w": 1,
+                "h": 1,
+                "at": "17173-video-ads",
+                "custom": {
+                    "e": "0",
+                    "t": "5",
+                    "j": "",
+                    "r": "1",
+                    "u": "baidu"
+                },
+                "ps": {
+                    "pt": [
+                        {
+                            "tp": "t",
+                            "n": "playfull",
+                            "val": "0",
+                            "cd": "http://17173im.allyes.com/main/adftrack?db=17173im&point=659&cache=20017&pre="
+                        }
+                    ]
+                },
+                "e": "",
+                "cc": "http://17173im.allyes.com/c?d=17173im&i=z67,10016775,1290,4411&k=cid|1&rf=&a=dsAADiw6C0BTeuy38QQhaH1xK&url=",
+                "sc": "http://17173im.allyes.com/main/s?d=17173im&i=s67,10016775,1290,4411&k=cid|1&count=f&rf=&a=dsAADiw6C0BTeuy38QQhaH1xK",
+                "trd": {
+                    "u": []
+                },
+                "ip": "180.149.148.66"
+            }
+        },
+        {
+            "chan": {
+                "name": "allyestest|video_adv_test|video_test_qiantie2",
+                "id": "68",
+                "startTime": "",
+                "endTime": "",
+                "t": "smcustom",
+                "r": "0",
+                "p": 1,
+                "tfid": 4413,
+                "dz": 0,
+                "w": 1,
+                "h": 1,
+                "at": "17173-video-ads",
+                "custom": {
+                    "e": "0",
+                    "t": "5",
+                    "j": "http://www.17173.com/",
+                    "r": "1",
+                    "u": ""
+                },
+                "ps": {
+                    "pt": [
+                        {
+                            "tp": "t",
+                            "n": "playfull",
+                            "val": "0",
+                            "cd": "http://17173im.allyes.com/main/adftrack?db=17173im&point=660&cache=79558&pre="
+                        }
+                    ]
+                },
+                "e": "",
+                "cc": "http://17173im.allyes.com/c?d=17173im&i=z68,10016887,1291,4413&k=cid|1&rf=&a=dsAADiw6C0BTeuy38QQhaH1xK&url=",
+                "sc": "http://17173im.allyes.com/main/s?d=17173im&i=s68,10016887,1291,4413&k=cid|1&count=f&rf=&a=dsAADiw6C0BTeuy38QQhaH1xK",
+                "trd": {
+                    "u": []
+                },
+                "ip": "180.149.148.66"
+            }
+        },
+        {
+            "chan": {
+                "name": "allyestest|video_adv_test|video_test_zanting",
+                "id": "69",
+                "startTime": "",
+                "endTime": "",
+                "t": "smcustom",
+                "r": "0",
+                "p": 1,
+                "tfid": 4415,
+                "dz": 0,
+                "w": 1,
+                "h": 1,
+                "at": "17173-video-ads",
+                "custom": {
+                    "e": "0",
+                    "t": "5",
+                    "j": "http://www.17173.com/",
+                    "r": "1",
+                    "u": "http://images.17173.com/2014/www/2014/gg/sx/09/01/ha-0901-320240spzt.swf"
+                },
+                "ps": {
+                    "pt": [
+                        {
+                            "tp": "t",
+                            "n": "playfull",
+                            "val": "0",
+                            "cd": "http://17173im.allyes.com/main/adftrack?db=17173im&point=661&cache=80420&pre="
+                        }
+                    ]
+                },
+                "e": "",
+                "cc": "http://17173im.allyes.com/c?d=17173im&i=z69,10016813,1292,4415&k=cid|1&rf=&a=dsAADiw6C0BTeuy38QQhaH1xK&url=",
+                "sc": "http://17173im.allyes.com/main/s?d=17173im&i=s69,10016813,1292,4415&k=cid|1&count=f&rf=&a=dsAADiw6C0BTeuy38QQhaH1xK",
+                "trd": {
+                    "u": []
+                },
+                "ip": "180.149.148.66"
+            }
+        },
+        {
+            "chan": {
+                "name": "allyestest|video_adv_test|video_test_xiadi",
+                "id": "70",
+                "startTime": "",
+                "endTime": "",
+                "t": "smcustom",
+                "r": "0",
+                "p": 1,
+                "tfid": 4417,
+                "dz": 0,
+                "w": 1,
+                "h": 1,
+                "at": "17173-video-ads",
+                "custom": {
+                    "e": "0",
+                    "t": "5",
+                    "j": "http://www.17173.com/",
+                    "r": "1",
+                    "u": "http://i1.17173.itc.cn/2014/www/2014/gg/hd/09/24/m-0924-23520kz.jpg"
+                },
+                "ps": {
+                    "pt": [
+                        {
+                            "tp": "t",
+                            "n": "playfull",
+                            "val": "0",
+                            "cd": "http://17173im.allyes.com/main/adftrack?db=17173im&point=662&cache=23907&pre="
+                        }
+                    ]
+                },
+                "e": "",
+                "cc": "http://17173im.allyes.com/c?d=17173im&i=z70,10016832,1293,4417&k=cid|1&rf=&a=dsAADiw6C0BTeuy38QQhaH1xK&url=",
+                "sc": "http://17173im.allyes.com/main/s?d=17173im&i=s70,10016832,1293,4417&k=cid|1&count=f&rf=&a=dsAADiw6C0BTeuy38QQhaH1xK",
+                "trd": {
+                    "u": []
+                },
+                "ip": "180.149.148.66"
+            }
+        },
+        {
+            "chan": {
+                "name": "allyestest|video_adv_test|video_test_jiaobiao",
+                "id": "71",
+                "startTime": "",
+                "endTime": "",
+                "t": "smcustom",
+                "r": "0",
+                "p": 1,
+                "tfid": 4419,
+                "dz": 0,
+                "w": 1,
+                "h": 1,
+                "at": "17173-video-ads",
+                "custom": {
+                    "e": "0",
+                    "t": "5",
+                    "j": "http://www.17173.com/",
+                    "r": "1",
+                    "u": "http://images.17173.com/2014/www/2014/gg/9377/09/28/my-0928-8060spjb1.swf"
+                },
+                "ps": {
+                    "pt": [
+                        {
+                            "tp": "t",
+                            "n": "playfull",
+                            "val": "0",
+                            "cd": "http://17173im.allyes.com/main/adftrack?db=17173im&point=663&cache=56250&pre="
+                        }
+                    ]
+                },
+                "e": "",
+                "cc": "http://17173im.allyes.com/c?d=17173im&i=z71,10016851,1294,4419&k=cid|1&rf=&a=dsAADiw6C0BTeuy38QQhaH1xK&url=",
+                "sc": "http://17173im.allyes.com/main/s?d=17173im&i=s71,10016851,1294,4419&k=cid|1&count=f&rf=&a=dsAADiw6C0BTeuy38QQhaH1xK",
+                "trd": {
+                    "u": []
+                },
+                "ip": "180.149.148.66"
+            }
+        },
+        {
+            "chan": {
+                "name": "allyestest|video_adv_test|video_test_shanbo",
+                "id": "87",
+                "startTime": "",
+                "endTime": "",
+                "t": "smcustom",
+                "r": "0",
+                "p": 1,
+                "tfid": 4421,
+                "dz": 0,
+                "w": 1,
+                "h": 1,
+                "at": "17173-video-ads-a6",
+                "custom": {
+                    "e": "0",
+                    "t": "5",
+                    "j": "http://www.17173.com/",
+                    "r": "1",
+                    "t1": "",
+                    "iu": "http://www.17173.com/if/sx/2014/09/05/cs-0905-yyspv.htm",
+                    "u": "http://images.17173.com/2014/www/2014/gg/9377/09/05/cs-0905-34335spyy.swf"
+                },
+                "ps": {
+                    "pt": [
+                        {
+                            "tp": "t",
+                            "n": "playfull",
+                            "val": "0",
+                            "cd": "http://17173im.allyes.com/main/adftrack?db=17173im&point=664&cache=41067&pre="
+                        }
+                    ]
+                },
+                "e": "",
+                "cc": "http://17173im.allyes.com/c?d=17173im&i=z87,10016870,1295,4421&k=cid|1&rf=&a=dsAADiw6C0BTeuy38QQhaH1xK&url=",
+                "sc": "http://17173im.allyes.com/main/s?d=17173im&i=s87,10016870,1295,4421&k=cid|1&count=f&rf=&a=dsAADiw6C0BTeuy38QQhaH1xK",
+                "trd": {
+                    "u": []
+                },
+                "ip": "180.149.148.66"
+            }
+        },
+        {
+            "chan": {
+                "name": "",
+                "id": "",
+                "startTime": "",
+                "endTime": "",
+                "t": "",
+                "r": 0,
+                "p": 0,
+                "tfid": 0,
+                "dz": 0,
+                "w": 0,
+                "h": 0,
+                "at": "",
+                "parts": {
+                    "part": [
+                        {
+                            "f": "",
+                            "w": 0,
+                            "h": 0,
+                            "s": "",
+                            "c": "",
+                            "sec": 0
+                        }
+                    ]
+                },
+                "custom": {},
+                "ps": {},
+                "e": "",
+                "cc": "",
+                "sc": "",
+                "trd": []
+            }
+        }
+    ]
+}

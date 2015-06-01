@@ -1,0 +1,5 @@
+初始化流程:
+	Flash:
+		注册Context(SanmaiMain.as) -> 启动初始化(MCfg.as) -> 请求房间数据(InitRoom.as) -> 连接socket(InitSocket.as) -> 加载配置和语言包并加载场景(InitConfig.as) -> 加载各个模块(InitModule.as) -> 结束
+	业务:
+		从Flashvars获取RoomId -> 通过RoomId获取ShowData -> 通过ShowData中的数据连接socket -> 发送socket握手的消息用以连接聊天服务器 -> 结束

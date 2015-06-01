@@ -1,0 +1,36 @@
+此文件自行维护
+
+Context.variables包含的参数如下:
+	
+	flashvars部分
+		公用:
+			cid
+				涵义
+					视频id,点播直播都有这个涵义.目前直播是通过flashvars里的roomId来获取该值
+			
+		直播:
+			ckey
+			roomId
+				涵义
+					房间id,当前播放器需要处理的数据的直播来源房间
+			
+		
+
+
+	自定义部分
+		公用:
+			debug 
+				来源
+					url参数或者flashvars里, debug = 1
+				涵义
+					启动代码中的某些测试逻辑,可以通过这个字段,编写需要发布到线上的,有意义的测试用的代码
+					
+			refPage
+		
+		广告:
+			adurl [debug]
+				来源
+					url参数或者flashvars里
+				涵义
+					只有当debug为true时才能启用,指定的广告文件路径,可以提供绝对路径和相对路径.
+						相对路径将使用flash主文件的地址作为前缀,也就是只能访问和主文件同目录平级或者次级目录.

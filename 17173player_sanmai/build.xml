@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project name="17173player_sanmai" basedir="." default="build">
+
+	<property file="debug-build.properties"/>
+	
+	<!--
+	<target name="compile">
+		<mxmlc file="${source}.as" output="${target}.swf"/>
+		<load-config filename="${config}"/>
+	</target>
+-->
+	
+	<target name="check">
+		<condition property="exists">
+			<available file="${dir}/com"></available>
+		</condition>
+	</target>
+	
+	<target name="export" depends="check" if="exists">
+		<copy todir="${dir}" flatten="true" >
+			<fileset dir="${dir}/${mdir}" includes="**/*.swf">
+			</fileset>
+		</copy>
+	</target>
+	
+	<target name="cleanExcludes" depends="check" if="exists">
+		<delete dir="${dir}/com" />
+	</target>
+	
+	<target name="build" depends="export, cleanExcludes" />
+	
+</project>

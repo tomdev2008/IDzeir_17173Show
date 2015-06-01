@@ -1,0 +1,393 @@
+<locale name="zh_CN">
+	<!-- 通用包 -->
+	<p name="common">
+		<v k="loading">正在加载...</v>
+		<v k="login">登录</v>
+	</p>
+	<!-- 错误 -->
+	<p name="error">
+		<v k="connection_lost">已经与服务器断开连接!</v>
+		<v k="re_connection_fail">您当前与服务器断开连接，请检查您的网络或刷新页面</v>
+		<v k="getRoomData_fail">房间数据获取失败!</v>
+		<v k="http_lost">网络出现异常，请检查您的网络情况</v>
+		<v k="200000">对不起，您的账户余额不足，请充值</v>
+		<v k="401005">访问的房间不存在</v>
+		<v k="401007">您已被管理员踢出该房间1小时，去其他地方逛逛吧</v>
+		<v k="401011">该房间已达到人数限制，去其他地方逛逛吧</v>
+		<v k="402001">您已被管理员设置禁言5分钟，请耐心等待</v>
+		<v k="402002">新手60秒内不允许发言</v>
+		<v k="402003">对不起，游客发言间隔是30秒，登录后享受畅快聊天</v>		
+		<v k="402004">对不起，聊天信息不能为空</v>
+		<v k="402005">对不起，游客发言不能超过10个字，登录后享受畅快聊天</v>
+		<v k="402006">游客不允许发言</v>
+		<v k="402007">您没选中聊天的对象，请确认</v>
+		<v k="402008">对不起，发言不能超过120个字</v>
+		<v k="402009">陪您聊天的小伙伴已离开本直播间啦</v>
+		<v k="402010">您的等级不够3富，不具有私聊权限</v>
+		<v k="402011">房间已关闭公聊，只有房间经纪人、助理、艺人能够发言</v>
+		<v k="402012">对方已设置拒绝私聊</v>	
+		<v k="402013">对不起，您的发言间隔不足3秒。</v>	
+		<v k="409004">您的账号已在另一地点进入该直播间，您被迫退出该直播间</v>		
+		<v k="000014">飞屏最多只能发送20个字</v>			
+	</p>
+	<!-- 通用组件等 -->
+	<p name="components">
+		<v k="btn_ok">确 定</v>
+		<v k="btn_cancel">取 消</v>
+		<v k="btn_submit">提 交</v>
+		<v k="title">提示信息</v>
+		<v k="system_title">系统提示</v>
+		<v k="money_label">充值</v>
+		<v k="money_label1">去充值</v>
+		<v k="login_label1">去登录</v>
+		<v k="gotoHome">返回大厅</v>		
+	</p>
+	<!-- 底栏 -->	
+	<p name="bottom">
+		<v k="btn_label_openroom">开启房间</v>
+		<v k="btn_label_closeroom">关闭房间</v>
+		<v k="btn_label_opencar">开启摄像头</v>
+		<v k="btn_label_actionmai">排麦</v>
+		<v k="btn_label_cancalmai">取消排麦</v>
+		<v k="btn_label_exitmai">下麦</v>
+		<v k="btn_label_changegg">修改公告</v>
+		<v k="btn_label_moveuser">转移观众</v>
+		<v k="btn_label_closepublic">关闭公聊</v>
+		<v k="btn_label_openpublic">开启公聊</v>
+		<v k="btn_label_closegifteff">关闭礼物效果</v>
+		<v k="btn_label_opengifteff">开启礼物效果</v>
+		<v k="btn_label_offline">离线录像</v>
+		<v k="panel_label_gonggao">房间公告</v>
+		<v k="panel_label_gonggao_def">该房间未设置公告</v>
+		<v k="panel_label_gonggao_d1">输入公告不得超过40个字</v>
+		<v k="panel_label_gonggao_d2">公告链接地址</v>
+		<v k="panel_label_gonggao_t1">请输入公告信息!</v>
+		<v k="panel_label_move_url">请输入链接地址</v>
+		<v k="send_guangbobtn">发广播</v>
+		<v k="send_guangbo">请输入广播消息!</v>
+		<v k="send_guangbo1">广播消息长度不能超过100个字!</v>
+		<v k="top_exit_tip">访问主页</v>
+		<v k="top_openLobby">直播大厅</v>
+		<v k="link_sohu">搜狐账号登录</v>
+		<v k="link_qq">QQ账号登录</v>
+		<v k="link_baidu">百度账号登录</v>
+		<v k="link_renren">人人账号登录</v>
+		<v k="link_37wan">37玩玩账号登录</v>
+		<v k="link_weibo">新浪微博账号登录</v>
+		<v k="link_douban">豆瓣账号登录</v>
+		<v k="for_get_tip">忘记密码</v>
+		<v k="register_tip">注册</v>
+		<v k="user_list_tip">用户列表</v>
+		<v k="room_gg_tip">房间公告</v>
+		<v k="title_close_public">关闭公聊</v>
+		<v k="cont_close_public">您确认关闭房间公聊效果?</v>
+		<v k="title_close_gift">关闭礼物效果</v>
+		<v k="cont_close_gift">您确认关闭房间礼物效果?</v>
+		<v k="sendgift_tip">赠送礼物</v>
+		<v k="money_tip">前往充值</v>
+		<v k="change_sendgb_tip">切换到发广播</v>
+		<v k="change_showgb_tip">关闭发广播</v>
+		<v k="send_showgb_tip">发送广播</v>
+		<v k="chengName_tip">修改昵称</v>
+		<v k="logout_tip">退出登录</v>
+		<v k="duihuan_tip">兑换</v>
+		<v k="faceChange_tip">修改头像</v>
+		<v k="userCenter_tip">用户中心</v>
+		<v k="guangbotip">发广播需要500乐币，最多显示100个字。</v>
+		<v k="move_usertitle">把当前观众转移到其他房间</v>
+		<v k="off_videotitle">离线录像</v>
+		<v k="up_load">上传录像</v>
+		<v k="off_videourl">离线录像地址</v>
+		<v k="move_userurl">请输入房间URL地址</v>
+		<v k="move_userurl1">http://</v>
+		<v k="login_name_def">手机号 / 17173通行证</v>
+		<v k="login_pwd_def">请输入密码</v>
+		<v k="login_auto_label"> 自动登录</v>
+		<v k="login_forget_labe">忘记密码>></v>
+		<v k="login_login_labe">登 录</v>
+		<v k="login_reg_labe">立即注册</v>
+		<v k="login_link_labe">一键登录：</v>
+		<v k="login_name_null">请输入用户名</v>
+		<v k="login_pwd_null">请输入密码</v>
+		<v k="login_val_change">换一张</v>
+		<v k="login_val_change_tip">点击更换验证码</v>
+		<v k="name_limit">您所填写昵称过长,请重新修改</v>
+	</p>
+	<!-- 顶栏 -->
+	<p name="top">
+		<v k="title_gonggao">房间公告</v>
+	</p>
+	<p name="horn">
+		<v k="guangbotip">发广播需要500乐币，最多显示100个字</v>
+		<v k="send">发送</v>
+		<v k="close">关闭</v>
+		<v k="change_sendgb_tip">切换到发广播</v>
+		<v k="change_showgb_tip">关闭发广播</v>
+		<v k="send_showgb_tip">发送广播</v>
+		<v k="send_guangbo">请输入广播消息!</v>
+		<v k="send_guangbo1">广播消息长度不能超过100个字!</v>
+		<v k="sendHorn">发广播</v>
+		<v k="error">广播的内容不能为空!</v>
+	</p>
+	<!-- 礼物 -->
+	<p name="gift">
+		<v k="sendLabel">送给</v>
+		<v k="zsend_label">赠送</v>
+		<v k="get_label">给</v>
+		<v k="sendCount">个</v>
+		<v k="needRsId">请选择要赠送礼物的人</v>
+		<v k="needCount">礼物数量大于0</v>
+		<v k="needGift">需要选则一个礼物才能赠送</v>
+	</p>
+	<p name="rank">
+		<v k="rankTitle">冠名排行榜</v>
+	</p>
+	<!-- 大厅 -->
+	<p name="lobby">
+		<v k="vTitle">娱乐直播</v>
+		<v k="gTitle">游戏直播</v>
+		<v k="vmoreUrl">http://v.17173.com/show/index_list_6_1_1.htm</v>
+		<v k="gmoreUrl">http://v.17173.com/live/list/liveHall.htm</v>
+		<v k="more">更多</v>
+	</p>
+	<!-- 用户身份 -->
+	<p name="userRole">
+		<v k="broker">房主</v>
+		<v k="assistant">房间助理</v>
+		<v k="admin">巡管</v>
+		<v k="agent">销售代理</v>
+		<v k="saler">经纪人</v>
+		<v k="nAdmin">房间管理员</v>
+		<v k="vip1">紫色vip</v>
+		<v k="vip2">黄色vip</v>
+		<v k="rich">财富等级</v>
+		<v k="star">主播等级</v>
+	</p>
+	<!-- 聊天 -->
+	<p name="chatPanel">
+		<v k="all">大家</v>
+		<v k="isWhisper">悄悄的</v>
+		<v k="to">对</v>
+		<v k="say">说：</v>
+		<v k="pubChatTab">公聊</v>
+		<v k="priChatTab">私聊</v>
+		<v k="send">发送</v>
+		<v k="fly">飞屏</v>
+		<v k="clear">清屏</v>
+		<v k="canScroll">滚屏</v>
+		<v k="noScroll">禁滚屏</v>
+		<v k="priChat">私聊</v>
+		<v k="noPriChat">禁私聊</v>
+		<v k="yesPriChat">开私聊</v>
+		<v k="empytError">聊天内容不能为空</v>
+		<v k="flyEmpty">飞屏内容不能为空</v>
+		<v k="flylimit">飞屏最多只能发送20个字</v>
+		<v k="flyDisabled">飞屏不可以悄悄说哟!</v>
+		<v k="noPriWarning">您的私聊功能已经禁止，请开启。</v>
+		<v k="noEnoughRichLevel">财富等级小于1级，聊天字数不能超过10个</v>
+		<v k="OverMax">聊天内容超过限制长度</v>
+		<v k="noAllPriChat">您的权限不够,无法进行私聊。</v>
+		<v k="limitRichLevel">财富未达到3级，不能进行私聊</v>
+		<v k="role1">经纪人</v>
+		<v k="role2">助理</v>
+		<v k="role3">艺人</v>
+		<v k="role4">管理员</v>
+		<!-- 聊天信息 -->
+		<v k="msg_userEntry">进入了演艺厅</v>
+		<v k="msg_userExit">离开演艺厅</v>
+		<v k="msg_hidenEntry">一个身影“咻”的闪入了演艺厅！</v>
+		<v k="msg_notice">房间公告</v>
+		<v k="msg_sys">系统公告</v>
+		<v k="msg_close_chat">关闭了房间公聊！</v>
+		<v k="msg_open_chat">开启了房间公聊！</v>
+		<v k="msg_role_admin">设置成为房间{0}。</v>
+		<v k="msg_role_normal">撤销了房间{0}资格。</v>
+		<v k="defaultNotice">艺人还没来得及设置房间公告，记得提醒她哦</v>
+		<v k="goodsNotice">您的背包中有商品即将过期，请及时续费，以免影响您的正常使用。</v>
+		<v k="gameTips">【game】主播邀您一起玩，马上加入！</v>
+		<!-- 大小烟花对象 -->
+		<v k="fireworks_7402">房间内注册用户</v>
+		<v k="fireworks_7403">艺人及管理</v>
+		<!-- 巡管 -->
+		<v k="icon_admin">admin.png</v>
+		<!-- 代理（售） -->
+		<v k="icon_agent">agent.png</v>
+		<!-- 房间艺人 -->
+		<v k="icon_artist">artist.png</v>
+		<!-- 助理 -->
+		<v k="icon_assistant">assistant.png</v>
+		<!-- 经纪人 -->
+		<v k="icon_broker">broker.png</v>
+		<!-- 普通管理员 -->
+		<v k="icon_normalAdmin">normalAdmin.png</v>
+		<!-- 销售（经纪人） -->
+		<v k="icon_saler">saler.png</v>
+		<!-- 紫vip -->
+		<v k="icon_vip1">vip1.swf</v>
+		<!-- 黄vip -->
+		<v k="icon_vip2">vip2.swf</v>
+	</p>
+	<!-- 输入框 -->
+	<p name="inputText">
+		<v k="chat">请输入文字...</v>
+		<v k="laba">发广播需要0.5Q币</v>
+	</p>
+	<!-- 用户列表 -->
+	<p name="userList">
+		<v k="peoTab">观众</v>
+		<v k="masTab">管理员</v>
+		<v k="micTab">麦序</v>
+	</p>
+	<p name="task">
+		<v k="title">登录后完成下列任务可获得乐币奖励哦！</v>
+		<v k="task1">完成注册，奖励100乐币</v>
+		<v k="task2">首次修改昵称，奖励20乐币</v>
+		<v k="task3">任意直播间连续观看40分钟，奖励100乐币</v>
+		<v k="task4">首次关注主播，奖励30乐币</v>
+		<v k="task5">首次完成充值，奖励10%乐币</v>
+		<v k="task6">首次对主播发私聊，奖励500乐币</v>
+		<v k="task7">首次对主播送出任意礼物，奖励50乐币</v>
+		<v k="taskState1">未完成</v>
+		<v k="taskState2">已完成</v>
+		<v k="taskState3">领取</v>
+		<v k="taskState4">已领取</v>
+		<v k="taskBtnLabel_1">立即注册</v>
+		<v k="taskBtnLabel_5">充值</v>
+	</p>
+	<!-- 推流模块 -->
+	<p name="camModule">
+		<v k="endVideoTitle">信息提示</v>
+		<v k="qualityHigh">带插件高清直播</v>
+		<v k="qualityHighInfo">（低码率，高清晰度）</v>
+		<v k="qualityMid">无插件高清直播</v>
+		<v k="qualityMidInfo">（高码率，高清晰度）</v>
+		<v k="qualityLow">无插件标清直播</v>
+		<v k="qualityLowInfo">（低码率，低清晰度）</v>
+		<v k="qualityInfoText">等待上麦</v>
+		<v k="waitUpMic">等待直播</v>
+		<v k="camTitle">请选择视频设备</v>
+		<v k="liveTitle">请选择音频设备</v>
+		<v k="selectBtn">下一步</v>
+		<v k="startPushLabel">开始直播</v>
+		<v k="operation">操作</v>
+		<v k="present">送礼</v>
+		<v k="upCamIcon">我要上麦</v>
+		<v k="downCamIcon">下麦</v>
+		<v k="bimai">闭麦</v>
+		<v k="kaimai">开麦</v>
+		<v k="photo">拍照</v>
+		<v k="closeCam">结束直播</v>
+		<v k="openCamer">先打开摄像头</v>
+		<v k="upMic">确定</v>
+		<v k="failSelect">请选择摄像头和麦克风</v>
+		<v k="failPush">分发失败</v>
+		<v k="continuePush">您上次直播未正常结束，是否继续上次直播?</v>
+		<v k="noCamera">请选择摄像头!</v>
+		<v k="noMic">请选择麦克风!</v>
+	</p>
+	<!-- 拉流模块 -->
+	<p name="liveModule">
+		<v k="noVideo">暂无直播</v>
+		<v k="returnVideo">请准备好摄像头，回到麦上</v>
+		<v k="waitVideo">等待开始直播中</v>
+		<v k="waitVideoNoMaster">艺人异常断开，正在重新连接中</v>
+	</p>
+	<!-- 开启房间模块 -->
+	<p name="openModule">
+		<v k="freeInfo">公开直播(所有用户都能进入您的房间并与您互动)</v>
+		<v k="passwordInfo">密码访问(知道密码的用户才能进入房间与您互动，密码房间需50乐币)</v>
+		<v k="payInfo">收费直播(只有购买门票的用户才能进入房间与您互动，设置收费房间需要100乐币)</v>
+		<v k="title">请选择直播方式：</v>
+		<v k="numberInfo">请输入4—10位数字或字母</v>
+		<v k="ok">确认</v>
+		<v k="cancel">取消</v>
+		<v k="roomNotice">此房间为收费房间</v>
+		<v k="priceBtn">支 付</v>
+		<v k="payBtn">立即充值</v>
+		<v k="priceText">进入此房间需要支付{object}乐币</v>
+		<v k="failPrice">对不起，您的余额不足！</v>
+		<v k="pwdInfo">请输入密码</v>
+		<v k="pwdBtn">确定</v>
+		<v k="pwdTitle">此房间为密码房间</v>
+		<v k="pwdFail">对不起，密码有误，请重新输入</v>
+		<v k="return">返回大厅>></v>
+		<v k="closeTitle">关闭房间</v>
+		<v k="closeInfo">确认关闭房间吗？</v>
+		<v k="roomType">请选择开启房间的类型</v>
+		<v k="noPassword">请输入密码</v>
+		<v k="passwordShort">密码长度不低于4位</v>
+	</p>
+	<!-- 拍照模块 -->
+	<p name="photoModule">
+		<v k="photo">拍照</v>
+		<v k="photoCancel">取消</v>
+		<v k="upload">上传</v>
+	</p>
+	<!--  JSProxy -->
+	<p name="jsProxy">
+		<v k="tips">提示</v>
+		<v k="camFail">插件推流失败</v>
+		<v k="socketFail">网络异常，点击确定后重新推送？</v>
+		<v k="stopfail">摄像头释放失败</v>
+		<v k="setFail">你的摄像头被其他软件占用或者没有接入电脑，请检查后重新发起直播</v>
+		<v k="reBrowser">插件安装需要重启浏览器</v>
+		<v k="downloadInfo">您电脑尚未安装插件，请下载→安装→刷新浏览器→重新发起直播</v>
+		<v k="downTitle">系统消息</v>
+		<v k="downBtn">立即下载</v>
+		<v k="downBtnClose">取消</v>
+	</p>
+	<!-- 用户选项卡 -->
+	<p name="userCard">
+		<v k="giveGift">赠送礼物</v>
+		<v k="tellHe">对Ta公开说</v>
+		<v k="shieldHe">对Ta悄悄说</v>
+		<v k="shieldPrivateChat">屏蔽此人私聊</v>
+		<v k="openPrivateChat">开启此人私聊</v>
+		<v k="quitMic">下麦</v>
+		<v k="firstMic">上一麦</v>
+		<v k="secondMic">上二麦</v>
+		<v k="thirdMic">上三麦</v>
+		<v k="kickOneHour">踢出1小时</v>
+		<v k="gag">禁言5分钟</v>
+		<v k="RecoveryOfSpeech">恢复发言</v>
+		<v k="upManager">升级为管理</v>
+		<v k="cancleManager">撤销管理</v>
+		<v k="removeMic">移除麦序</v>
+		<v k="tip">提示</v>
+		<v k="tipKicked">您已经被踢出房间！</v>
+		<v k="tipGay">禁言</v>
+		<v k="tipGayContext">您确定将该用户禁言5分钟？</v>
+		<v k="tipRecoveryOfSpeech">取消禁言</v>
+		<v k="tipRecoveryOfSpeechContext">您确定取消该用户禁言？</v>
+		<v k="tipUpManager">设置管理</v>
+		<v k="tipUpManagerContext">您确定将该用户设置为房间管理员？</v>
+		<v k="tipCancleManager">撤销管理</v>
+		<v k="tipCancleManagerContext">您确定撤销该用户房间管理员？</v>
+		<v k="tipKick">踢出房间</v>
+		<v k="tipKickContext">您确定将该用户踢出房间1小时？</v>
+		<v k="tipfirstMic">上主麦</v>
+		<v k="tipfirstMicContext">主麦当前已有用户在直播，您确定将该用户替换？</v>
+		<v k="tipsecondMic">上2麦</v>
+		<v k="tipsecondMicContext">2麦当前已有用户在直播，您确定将该用户替换？</v>
+		<v k="tipthirdMic">上3麦</v>
+		<v k="tipthirdMicContext">3麦当前已有用户在直播，您确定将该用户替换？</v>
+		<v k="tipremoveMic">移除麦序</v>
+		<v k="tipremoveMicContext">您确定将该用户移除麦序？</v>
+		<v k="bannedIP">封全站IP</v>
+		<v k="bannedIPtip">您确定封此用户全站IP?</v>
+	</p>
+	
+	<!--背包-->
+	<p name="bag">
+		<v k="useBtn">使用</v>
+		<v k="useingBtn">使用中</v>
+		<v k="renewBtn">续费</v>
+		<v k="okBtn">确定</v>
+		<v k="checkbox">自动续费</v>
+		<v k="validateDate">有效期至：@日</v>
+		<v k="renewSucc1">恭喜您，续费成功</v>
+		<v k="renewSucc2">商品有效期至@日</v>
+		<v k="renewfail1">抱歉，续费失败</v>
+		<v k="renewfail2">请移步去充值</v>
+	</p>
+</locale>

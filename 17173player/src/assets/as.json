@@ -1,0 +1,82 @@
+{
+    "A1": {
+        "m": "0",
+        "v": {
+            "e": "0",
+            "t": "15",
+            "j": "",
+            "r": "1",
+            "u": "",
+            "sc": "",
+            "cc": "",
+            "tsc": []
+        }
+    },
+    "A2": {
+        "m": "0",
+        "v": {
+            "e": "0",
+            "t": "15",
+            "j": "http://clk.optaim.com/event.ng/Type=click&FlightID=201406&TargetID=sohu&Values=263c535b,28276fa5,b129a0ef,a55b7f6e&AdID=6037028",
+            "r": "1",
+            "u": " http://images.17173.com/2014/www/2014/gg/sx/07/27/ml-0728-634356-qt.swf",
+            "sc": "http://17173im.allyes.com/main/s?d=17173im&i=s34,10006971,558,1766&k=cid|4&count=f&rf=&a=dG9ulrIg52A5yG6353GebtXTe",
+            "cc": "http://17173im.allyes.com/main/adfclick?d=17173im&i=z34,10006971,558,1766&k=cid|4&rf=&a=dG9ulrIg52A5yG6353GebtXTe&url=",
+            "tsc": []
+        }
+    },
+    "A3": {
+        "m": "0",
+        "v": {
+            "e": "0",
+            "t": "15",
+            "j": "http://www.17173.com/",
+            "r": "1",
+            "u": "baidu",
+            "sc": "http://17173im.allyes.com/main/s?d=17173im&i=s40,10007756,437,1484&k=cid|4&count=f&rf=&a=dG9ulrIg52A5yG6353GebtXTe",
+            "cc": "http://17173im.allyes.com/main/adfclick?d=17173im&i=z40,10007756,437,1484&k=cid|4&rf=&a=dG9ulrIg52A5yG6353GebtXTe&url=",
+            "tsc": []
+        }
+    },
+    "A4": {
+        "m": "0",
+        "v": {
+            "e": "0",
+            "t": "15",
+            "j": "",
+            "r": "1",
+            "u": "",
+            "sc": "",
+            "cc": "",
+            "tsc": []
+        }
+    },
+    "A5": {
+        "m": "0",
+        "v": {
+            "e": "0",
+            "t": "15",
+            "j": "",
+            "r": "1",
+            "u": "",
+            "sc": "",
+            "cc": "",
+            "tsc": []
+        }
+    },
+    "A6": {
+        "m": "0",
+        "v": {
+            "e": "0",
+            "t": "15",
+            "j": "",
+            "r": "1",
+            "u": "",
+            "sc": "",
+            "cc": "",
+            "t1": "",
+            "iu": "",
+            "tsc": []
+        }
+    }
+}

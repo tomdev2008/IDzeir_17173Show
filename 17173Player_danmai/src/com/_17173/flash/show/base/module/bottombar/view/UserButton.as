@@ -1,0 +1,50 @@
+package com._17173.flash.show.base.module.bottombar.view
+{
+	import com._17173.flash.core.components.common.Button;
+	import com._17173.flash.core.components.common.CompEnum;
+	import com._17173.flash.show.base.utils.FontUtil;
+	
+	import flash.display.MovieClip;
+	import flash.text.TextFormat;
+	
+	public class UserButton extends Button
+	{
+		
+		private var _icon:MovieClip = null;
+		public function UserButton(label:String="", isSelected:Boolean=false)
+		{
+			super("用户列表", isSelected);
+		}
+		
+		override protected function onInit():void{
+			super.onInit();
+			this.width = 60;
+			this.height = 49;
+			_icon = new Bottom_Members();
+			_icon.x = (this.width - _icon.width)/2;
+			_icon.y = 6;
+			_icon.mouseEnabled = false;
+			this.addChild(_icon);
+			//			textFormat.bold = true;
+		}
+		
+		override protected function initTextField():void{
+			super.initTextField();
+			var textFormat:TextFormat = new TextFormat();
+			textFormat.color = CompEnum.LABEL_BUTTON_COLOR;
+			textFormat.font = FontUtil.f;
+			textFormat.size = 10;
+			_labelTxt.setTextFormat(textFormat);
+			_labelTxt.alpha = .7;
+			_labelTxt.defaultTextFormat = textFormat;
+		}
+		
+		override protected function onRePostionLabel():void{
+			_labelTxt.x = (width - _labelTxt.width)/2;
+			_labelTxt.y = 26;
+		}
+		
+		
+		
+	}
+}

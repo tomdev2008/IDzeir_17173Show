@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<actionScriptProperties analytics="false" mainApplicationPath="SanmaiMain.as" projectUUID="729baaa0-66c4-4346-a234-b50842e1e188" version="11">
+  <compiler additionalCompilerArguments="-locale en_US" advancedTelemetry="false" autoRSLOrdering="true" copyDependentFiles="true" fteInMXComponents="false" generateAccessible="false" htmlExpressInstall="true" htmlGenerate="true" htmlHistoryManagement="true" htmlPlayerVersionCheck="true" includeNetmonSwc="false" outputFolderPath="bin-debug" removeUnusedRSL="true" sourceFolderPath="src" strict="true" targetPlayerVersion="0.0.0" useApolloConfig="false" useDebugRSLSwfs="true" useFlashSDK="false" verifyDigests="true" warn="true">
+    <compilerSourcePath/>
+    <libraryPath defaultLinkType="0">
+      <libraryPathEntry kind="4" path="">
+        <excludedEntries>
+          <libraryPathEntry kind="3" linkType="1" path="${PROJECT_FRAMEWORKS}/libs/automation_charts.swc" useDefaultLinkType="false"/>
+          <libraryPathEntry kind="1" linkType="1" path="${PROJECT_FRAMEWORKS}/locale/{locale}"/>
+          <libraryPathEntry kind="3" linkType="1" path="${PROJECT_FRAMEWORKS}/libs/advancedgrids.swc" useDefaultLinkType="false"/>
+          <libraryPathEntry kind="3" linkType="1" path="${PROJECT_FRAMEWORKS}/libs/qtp.swc" useDefaultLinkType="false"/>
+          <libraryPathEntry kind="3" linkType="1" path="${PROJECT_FRAMEWORKS}/libs/automation_air.swc" useDefaultLinkType="false"/>
+          <libraryPathEntry kind="3" linkType="1" path="${PROJECT_FRAMEWORKS}/libs/charts.swc" useDefaultLinkType="false"/>
+          <libraryPathEntry kind="3" linkType="1" path="${PROJECT_FRAMEWORKS}/libs/framework.swc" useDefaultLinkType="false"/>
+          <libraryPathEntry kind="3" linkType="1" path="${PROJECT_FRAMEWORKS}/libs/mx/mx.swc" useDefaultLinkType="false"/>
+          <libraryPathEntry kind="3" linkType="1" path="${PROJECT_FRAMEWORKS}/libs/netmon.swc" useDefaultLinkType="false"/>
+          <libraryPathEntry kind="3" linkType="1" path="${PROJECT_FRAMEWORKS}/libs/spark.swc" useDefaultLinkType="false"/>
+          <libraryPathEntry kind="3" linkType="1" path="${PROJECT_FRAMEWORKS}/libs/sparkskins.swc" useDefaultLinkType="false"/>
+          <libraryPathEntry kind="3" linkType="1" path="${PROJECT_FRAMEWORKS}/libs/rpc.swc" useDefaultLinkType="false"/>
+          <libraryPathEntry kind="3" linkType="1" path="${PROJECT_FRAMEWORKS}/libs/datavisualization.swc" useDefaultLinkType="false"/>
+          <libraryPathEntry kind="3" linkType="1" path="${PROJECT_FRAMEWORKS}/libs/qtp_air.swc" useDefaultLinkType="false"/>
+          <libraryPathEntry kind="3" linkType="1" path="${PROJECT_FRAMEWORKS}/libs/videoPlayer.swc" useDefaultLinkType="false"/>
+          <libraryPathEntry kind="3" linkType="1" path="${PROJECT_FRAMEWORKS}/libs/spark_dmv.swc" useDefaultLinkType="false"/>
+          <libraryPathEntry kind="3" linkType="1" path="${PROJECT_FRAMEWORKS}/libs/automation.swc" useDefaultLinkType="false"/>
+          <libraryPathEntry kind="3" linkType="1" path="${PROJECT_FRAMEWORKS}/libs/automation_dmv.swc" useDefaultLinkType="false"/>
+          <libraryPathEntry kind="3" linkType="1" path="${PROJECT_FRAMEWORKS}/libs/flash-integration.swc" useDefaultLinkType="false"/>
+          <libraryPathEntry kind="3" linkType="1" path="${PROJECT_FRAMEWORKS}/libs/automation_flashflexkit.swc" useDefaultLinkType="false"/>
+          <libraryPathEntry kind="3" linkType="1" path="${PROJECT_FRAMEWORKS}/libs/automation_agent.swc" useDefaultLinkType="false"/>
+        </excludedEntries>
+      </libraryPathEntry>
+      <libraryPathEntry kind="3" linkType="1" path="/17173Core/bin/17173Core.swc" useDefaultLinkType="false"/>
+      <libraryPathEntry kind="1" linkType="1" path="lib"/>
+      <libraryPathEntry kind="3" linkType="1" path="/17173Components/bin/17173Components.swc" useDefaultLinkType="false"/>
+    </libraryPath>
+    <sourceAttachmentPath/>
+  </compiler>
+  <applications>
+    <application path="SanmaiMain.as"/>
+  </applications>
+  <modules>
+    <module application="src/SanmaiMain.as" destPath="ST.swf" optimize="false" sourcePath="src/com/_17173/flash/show/base/module/stat/ST.as"/>
+    <module application="src/SanmaiMain.as" destPath="Scene.swf" optimize="false" sourcePath="src/com/_17173/flash/show/base/module/scene/Scene.as"/>
+    <module application="src/SanmaiMain.as" destPath="Subscribe.swf" optimize="false" sourcePath="src/com/_17173/flash/show/base/module/dingyue/Subscribe.as"/>
+    <module application="src/SanmaiMain.as" destPath="LobbyModule.swf" optimize="false" sourcePath="src/com/_17173/flash/show/base/module/lobby/LobbyModule.as"/>
+    <module application="src/SanmaiMain.as" destPath="SeatArea.swf" optimize="false" sourcePath="src/com/_17173/flash/show/base/module/seat/SeatArea.as"/>
+    <module application="src/SanmaiMain.as" destPath="EnterRoomModule.swf" optimize="false" sourcePath="src/com/_17173/flash/show/base/module/enterRoom/EnterRoomModule.as"/>
+    <module application="src/SanmaiMain.as" destPath="Preloader.swf" optimize="false" sourcePath="src/com/_17173/flash/show/base/module/preloader/Preloader.as"/>
+    <module application="src/SanmaiMain.as" destPath="SmilePanel.swf" optimize="false" sourcePath="src/com/_17173/flash/show/base/module/smileres/SmilePanel.as"/>
+    <module application="src/SanmaiMain.as" destPath="TopBar.swf" optimize="false" sourcePath="src/com/_17173/flash/show/base/module/topbar/TopBar.as"/>
+    <module application="src/SanmaiMain.as" destPath="BottomBar.swf" optimize="false" sourcePath="src/com/_17173/flash/show/base/module/bottombar/BottomBar.as"/>
+    <module application="src/SanmaiMain.as" destPath="ChatPanel.swf" optimize="false" sourcePath="src/com/_17173/flash/show/base/module/chat/ChatPanel.as"/>
+    <module application="src/SanmaiMain.as" destPath="MD.swf" optimize="false" sourcePath="src/com/_17173/flash/show/base/plugins/MD.as"/>
+    <module application="src/SanmaiMain.as" destPath="Activity.swf" optimize="false" sourcePath="src/com/_17173/flash/show/base/module/activity/Activity.as"/>
+    <module application="src/SanmaiMain.as" destPath="GiftPanel.swf" optimize="false" sourcePath="src/com/_17173/flash/show/base/module/gift/GiftPanel.as"/>
+    <module application="src/SanmaiMain.as" destPath="UserCard.swf" optimize="false" sourcePath="src/com/_17173/flash/show/base/module/userCard/UserCard.as"/>
+    <module application="src/SanmaiMain.as" destPath="OpenModule.swf" optimize="false" sourcePath="src/com/_17173/flash/show/base/module/open/OpenModule.as"/>
+    <module application="src/SanmaiMain.as" destPath="UserList.swf" optimize="false" sourcePath="src/com/_17173/flash/show/module/userlist/view/UserList.as"/>
+    <module application="src/SanmaiMain.as" destPath="Login.swf" optimize="false" sourcePath="src/com/_17173/flash/show/base/module/login/Login.as"/>
+    <module application="src/SanmaiMain.as" destPath="VideoModule.swf" optimize="false" sourcePath="src/com/_17173/flash/show/base/module/video/VideoModule.as"/>
+    <module application="src/SanmaiMain.as" destPath="QM.swf" optimize="false" sourcePath="src/com/_17173/flash/show/base/module/qm/QM.as"/>
+    <module application="src/SanmaiMain.as" destPath="CenterMessage.swf" optimize="false" sourcePath="src/com/_17173/flash/show/base/module/centermessage/CenterMessage.as"/>
+    <module application="src/SanmaiMain.as" destPath="PreviewModule.swf" optimize="false" sourcePath="src/com/_17173/flash/show/base/module/preview/PreviewModule.as"/>
+    <module application="src/SanmaiMain.as" destPath="BigAnimation.swf" optimize="false" sourcePath="src/com/_17173/flash/show/base/module/animation/biganimation/BigAnimation.as"/>
+    <module application="src/SanmaiMain.as" destPath="CocktailAndChampagne.swf" optimize="false" sourcePath="src/com/_17173/flash/show/base/module/animation/cac/CocktailAndChampagne.as"/>
+    <module application="src/SanmaiMain.as" destPath="EnterEffect.swf" optimize="false" sourcePath="src/com/_17173/flash/show/base/module/animation/entereffect/EnterEffect.as"/>
+    <module application="src/SanmaiMain.as" destPath="FlowerMini.swf" optimize="false" sourcePath="src/com/_17173/flash/show/base/module/animation/flowermini/FlowerMini.as"/>
+    <module application="src/SanmaiMain.as" destPath="SceneEffect.swf" optimize="false" sourcePath="src/com/_17173/flash/show/base/module/animation/sceneeffect/SceneEffect.as"/>
+    <module application="src/SanmaiMain.as" destPath="StageEffect.swf" optimize="false" sourcePath="src/com/_17173/flash/show/base/module/animation/stageeffect/StageEffect.as"/>
+    <module application="src/SanmaiMain.as" destPath="CarRunway.swf" optimize="false" sourcePath="src/com/_17173/flash/show/base/module/animation/carmini/CarRunway.as"/>
+  </modules>
+  <workers/>
+  <buildCSSFiles/>
+  <flashCatalyst validateFlashCatalystCompatibility="false"/>
+</actionScriptProperties>

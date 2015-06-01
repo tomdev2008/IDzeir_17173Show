@@ -1,0 +1,15 @@
+﻿public static final String ERROR_AUTHORIZATIONFAILED = "401007";// 你被T出去了，现在不能进
+    public static final String ERROR_TOOMANYUSER = "401011"; // 房间已满
+    public static final String ERROR_EXIST_ENTER = "409004"; // 同一个账户在其他地方登陆了相同的直播间
+    // 聊天错误码
+    public static final String ERROR_REFUES_CHAT = "402001"; // 用户正在处于禁言状态
+    public static final String ERROR_30_REFUES_CHAT = "402003"; // 发言频率太快了，游客10秒，用户3秒间隔
+    public static final String ERROR_CHAT_CT_EMPTY = "402004"; // 发言内容为空
+    public static final String ERROR_CHAT_CT_LENGTH_MAX_NEW = "402005"; // 游客发言最长10个字
+    public static final String ERROR_CHAT_ANY_USER_CANNOT = "402006"; // 游客不允许发言（目前没校验）
+    public static final String ERROR_CHAT_TOUID_EMPTY = "402007"; // 发言对象不能为空(公开私聊和秘密私聊的时候对方ID为空)
+    public static final String ERROR_CHAT_RECIEVER_NULL = "402009"; // 发言对象找不到(估计已经离开)
+    public static final String ERROR_CANNOT_PUB_CHAT = "402011"; // 当前房间关闭了公聊(你没身份，不可以说话)
+    public static final String ERROR_REVEIVER_CANNOT_PRIVATECHAT = "402012"; // 对方设置了不允许私聊
+
+    public static final String ERROR_CHAT_CT_LENGTH_MAX = "402008"; // 聊天内容过长 超过120个字
